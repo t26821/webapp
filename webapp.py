@@ -41,7 +41,7 @@ st.text('テキストです。')
 # )
 
 #データの読み込み
-df = pd.read_excel('hands_data.xlsx')
+df = pd.read_excel('./hands_data.xlsx')
 staff = df['担当者']
 
 # # カラムを追加する
